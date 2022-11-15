@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="site-header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="logo"
@@ -22,32 +22,28 @@
             ><span class="logo-second">Studio</span></a
           >
           <ul class="header-nav-menu list">
-            <li><a href="../index.html" class="list">Студія</a></li>
-            <li>
-              <a href="./pages/portfolio.html" class="list current"
-                >Портфоліо</a
-              >
-            </li>
-            <li><a href="/" class="list">Контакти</a></li>
+            <li class="header-nav-item"><a href="../index.html" class="header-nav-link list">Студія</a></li>
+            <li class="header-nav-item current"><a href="./portfolio.html" class="header-nav-link list current">Портфоліо</a></li>
+            <li class="header-nav-item"><a href="/" class="header-nav-link list">Контакти</a></li>
           </ul>
         </nav>
         <ul class="header-nav-contacts list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="list">
+          <li class="contact-item">
+            <a href="mailto:info@devstudio.com" class="contact-link list">
               <svg class="icon-mail">
                 <use
-                  href="../images/icons.svg#icon-mail"
+                  href="./images/icons.svg#icon-mail"
                   width="16"
                   height="12"></use>
               </svg>
               <span>info@devstudio.com</span>
             </a>
-          </li>
+          </li class="contact-item">
           <li>
-            <a href="tel:+380961111111" class="list">
+            <a href="tel:+380961111111" class="contact-link list">
               <svg class="icon-smartphone">
                 <use
-                  href="../images/icons.svg#icon-smartphone"
+                  href="./images/icons.svg#icon-smartphone"
                   width="10"
                   height="16"></use>
               </svg>
@@ -79,120 +75,121 @@
             </li>
           </ul>
           <ul class="portfolio-list list">
-            <li class="portfolio-list-li">
+            <li class="portfolio-list-item">
               <a href="/" class="portfolio-list-link list">
                 <img
                   src="../images/tehnocrjack.jpg"
                   alt="Перша сторінка сайту Технокряк"
                   width="370"
                   height="294" />
-                <div class="portfolio-li-container">
-                  <h2>Технокряк</h2>
-                  <p>Веб-сайт</p>
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-list-title">Технокряк</h2>
+                  <p class="portfolio-list-text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list-li">
+            <li class="portfolio-list-item">
               <a href="/" class="portfolio-list-link list">
                 <img
                   src="../images/poster.jpg"
                   alt="Баскетбол"
                   width="370"
                   height="294" />
-                <div class="portfolio-li-container">
-                  <h2>Постер New Orlean vs Golden Star</h2>
-                  <p>Дизайн</p>
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-list-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="portfolio-list-text">Дизайн</p>
                 </div>
+                .
               </a>
             </li>
-            <li class="portfolio-list-li">
+            <li class="portfolio-list-item">
               <a href="" class="portfolio-list-link list">
                 <img
                   src="../images/seafood.jpg"
                   alt="Логотип ресторану Seafood"
                   width="370"
                   height="294" />
-                <div class="portfolio-li-container">
-                  <h2>Ресторан Seafood</h2>
-                  <p>Додаток</p>
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-list-title">Ресторан Seafood</h2>
+                  <p class="portfolio-list-text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list-li">
+            <li class="portfolio-list-item">
               <a href="/" class="portfolio-list-link list">
                 <img
                   src="../images/prime.jpg"
                   alt="Навушники"
                   width="370"
                   height="294" />
-                <div class="portfolio-li-container">
-                  <h2>Проєкт Prime</h2>
-                  <p>Маркетинг</p>
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-list-title">Проєкт Prime</h2>
+                  <p class="portfolio-list-text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list-li">
+            <li class="portfolio-list-item">
               <a href="/" class="portfolio-list-link list">
                 <img
                   src="../images/boxes.jpg"
                   alt="Подарункові коробки"
                   width="370"
                   height="294" />
-                <div class="portfolio-li-container">
-                  <h2>Проєкт Boxes</h2>
-                  <p>Додаток</p>
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-list-title">Проєкт Boxes</h2>
+                  <p class="portfolio-list-text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list-li">
+            <li class="portfolio-list-item">
               <a href="/" class="portfolio-list-link list">
                 <img
                   src="../images/inspiration.jpg"
                   alt="Монітор з зображенням"
                   width="370"
                   height="294" />
-                <div class="portfolio-li-container">
-                  <h2>Inspiration has no Borders</h2>
-                  <p>Веб-сайт</p>
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-list-title">Inspiration has no Borders</h2>
+                  <p class="portfolio-list-text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list-li">
+            <li class="portfolio-list-item">
               <a href="/" class="portfolio-list-link list">
                 <img
                   src="../images/limited-edition.jpg"
                   alt="Журнал Limited Edition"
                   width="370"
                   height="294" />
-                <div class="portfolio-li-container">
-                  <h2>Видання Limited Edition</h2>
-                  <p>Дизайн</p>
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-list-title">Видання Limited Edition</h2>
+                  <p class="portfolio-list-text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list-li">
+            <li class="portfolio-list-item">
               <a href="/" class="portfolio-list-link list">
                 <img
                   src="../images/lab.jpg"
                   alt="Реклама проєкту LAB"
                   width="370"
                   height="294" />
-                <div class="portfolio-li-container">
-                  <h2>Проєкт LAB</h2>
-                  <p>Маркетинг</p>
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-list-title">Проєкт LAB</h2>
+                  <p class="portfolio-list-text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-list-li">
+            <li class="portfolio-list-item">
               <a href="/" class="portfolio-list-link list">
                 <img
                   src="../images/growing-business.jpg"
                   alt="Запуск додатку на ноутбуці"
                   width="370"
                   height="294" />
-                <div class="portfolio-li-container">
-                  <h2>Growing Business</h2>
-                  <p>Додаток</p>
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-list-title">Growing Business</h2>
+                  <p class="portfolio-list-text">Додаток</p>
                 </div>
               </a>
             </li>
